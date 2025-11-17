@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Manrope:wght@200..800&family=Pinyon+Script&family=Stack+Sans+Notch:wght@200..700&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+
+#root {
+  font-family: 'Vend Sans', sans-serif;
+  color:#1B1A18;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #F9F8F5;
+}
+
+/* Animated font for home header */
+.home-heading h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 400;
+  color: #1B1A18;
+}
+
+.change-font {
+  font-size: 120px;
+  color: #1B1A18;
+  animation-name: fontChange;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fontChange {
+  0% {
+    font-family: 'Vend Sans', sans-serif;
+  }
+  25% {
+     font-family: 'Stack Sans Notch', sans-serif;
+  }
+  50% {
+    font-family: 'Crimson Pro', serif;
+  }
+  75% {
+    font-family: 'Manrope', sans-serif;
+  }
+  100% {
+        font-family: 'Pinyon Script', cursive;
+  }
+}
+
+.home-subheading {
+  font-size: 20px;
+  font-weight: 'light' 300;
+}
+
+button {
+  font-family: 'Vend Sans', sans-serif;
+  border: 1px solid transparent;
+  padding: 0.4em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #BE2C0F;
+  cursor: pointer;
+}
+button:hover {
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
