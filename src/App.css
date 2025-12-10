@@ -27,6 +27,7 @@ body {
   animation-name: fontChange;
   animation-duration: 3.5s;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes fontChange {
@@ -49,22 +50,60 @@ body {
 
 .home-subheading {
   font-size: 20px;
-  font-weight: 'light' 300;
+  font-weight: 500;
 }
 
-button {
+.explore-button {
+  display: inline-block;
+  align-items: center;
+  gap: 0.6em;
   font-family: 'Vend Sans', sans-serif;
+  color: #BE2C0F;
   border: 1px solid transparent;
+  border-radius: 4px;
   padding: 0.4em 2em;
   font-size: 1em;
-  font-weight: 500;
-  background-color: #BE2C0F;
+  font-weight: bold;
   cursor: pointer;
+  transition-duration: 500ms;
+  
 }
 button:hover {
+    background-color: #BE2C0F;
+    color: #F9F8F5;
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.gg-arrow-top-right {
+   --ggs: 2.4; 
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid;
+  transform: scale(0.9);
+  border-right: 2px solid;
+  margin-top: -1.5px;
+  margin-left: 0.35rem;
+  vertical-align: text-top;
+}
+.gg-arrow-top-right::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 3px;
+  right: -3px;
+}
+
+.explore-button .gg-arrow-top-right {
+  display: inline-block;
+  margin-left: 0.35rem;
+  vertical-align: text-top;
+  position: relative;
+  top: 8px;
 }

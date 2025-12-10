@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 import './App.css'
 
 function App() {
@@ -10,15 +8,14 @@ function App() {
     <>
     <div className="home-heading">
         <h1>
-          <span>History of</span>
-          <span className="change-font"> Modern Art</span>
+          <span className="change-font">History of Modern Art</span>
         </h1>
     </div>
     <div className="home-subheading">
-        <h2> (in no particular order) </h2>
+        <h3> (in no particular order) </h3>
     </div>
-    <button className="explore-button">
-      Explore
+   <button className="explore-button">
+      Explore <span><i className="gg-arrow-top-right"></i></span> 
     </button>
     </>
   )
