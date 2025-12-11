@@ -1,5 +1,8 @@
+// src/pages/Gallery.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Gallery.css";
+
 
 // Automatically import all images in /images
 const images = import.meta.glob("../images/*.{jpg,jpeg,png}", {
@@ -15,9 +18,9 @@ const Gallery = () => {
       <div className="gallery-grid">
         {imageList.map((src, i) => (
           <div key={i} className="gallery-item">
-            <a href={`/artwork/${i + 1}`}>
-            <img src={src} alt={`Artwork ${i + 1}`} />
-            </a>
+            <Link to={`/artwork${i + 1}`}>
+              <img src={src} alt={`Artwork ${i + 1}`} />
+            </Link>
           </div>
         ))}
       </div>

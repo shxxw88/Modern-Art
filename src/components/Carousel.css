@@ -1,0 +1,46 @@
+/* Fullscreen black background like the CodePen */
+.stage {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+  position: relative;
+}
+
+/* Container that sits in the center */
+.carousel-container {
+  perspective: 2000px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 3D ring */
+.ring {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* Each image panel */
+.img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  user-select: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.3s ease;
+}
+
+.img:hover {
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
+}
