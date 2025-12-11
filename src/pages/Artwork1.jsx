@@ -1,5 +1,6 @@
 // src/pages/Artwork1.jsx
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Artwork.css";
 
 import a1 from "../images/abstractexpressionism.jpg";
@@ -12,6 +13,7 @@ import a6 from "../images/abexp/willemdekooning.jpg";
 export default function Artwork1() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedCaption, setSelectedCaption] = useState(null);
+  const navigate = useNavigate();
 
   const artworks = [
     { src: a1, title: "No. 6", artist: "Mark Rothko", year: "1951" },
@@ -35,9 +37,14 @@ export default function Artwork1() {
 
   return (
     <div className="artwork-page-columns">
-
       {/* LEFT COLUMN */}
       <section className="artwork-info-column">
+
+          {/* BACK BUTTON */}
+      <button className="back-button" onClick={() => navigate("/gallery")}>
+        <i className="gg-arrow-top-left"></i>
+      </button>
+
         <div className="artwork-info-bottom">
           <h1>Abstract Expressionism</h1>
           <p>
@@ -59,7 +66,6 @@ export default function Artwork1() {
               style={{ cursor: "pointer" }}
             >
               <img src={art.src} alt={art.title} />
-             
             </figure>
           ))}
         </div>
@@ -68,7 +74,10 @@ export default function Artwork1() {
       {/* LIGHTBOX OVERLAY */}
       {selectedImage && (
         <div className="lightbox-overlay" onClick={closeLightbox}>
-          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="lightbox-content"
+            onClick={(e) => e.stopPropagation()}
+          >
             <img src={selectedImage} alt={selectedCaption?.title || ""} />
 
             <div className="lightbox-caption">
