@@ -3,12 +3,12 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Artwork.css";
 
-import b1 from "../images/cubism.jpg";
-import b2 from "../images/const/books.jpg";
-import b3 from "../images/const/monument.jpg";
-import b4 from "../images/const/fiveyearplan.jpg";
-import b5 from "../images/const/selfportrait.jpg";
-import b6 from "../images/const/spatial.jpg";
+import c1 from "../images/cubism.jpg";
+import c2 from "../images/cubism/demoiselle.jpg";
+import c3 from "../images/cubism/portrait.jpg";
+import c4 from "../images/cubism/guitar.jpg";
+import c5 from "../images/cubism/portuguese.jpg";
+import c6 from "../images/cubism/tenora.jpg";
 
 export default function Artwork1() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -16,12 +16,12 @@ export default function Artwork1() {
   const navigate = useNavigate();
 
   const artworks = [
-    { src: b1, title: "Proun 12D", artist: "El Lissitzky", year: "1920" },
-    { src: b2, title: "Books (Please)! In All Branches of Knowledge", artist: "Aleksandr Rodchenko", year: "1924" },
-    { src: b3, title: "Monument of the Third International", artist: "Vladmir Tatlin", year: "1919-20" },
-    { src: b4, title: "The Results of the First Five Year Plan", artist: "Varvara Sepanova", year: "1932" },
-    { src: b5, title: "Self-Portrait (The Constructor)", artist: "El Lissitzky", year: "1924" },
-    { src: b6, title: "Spatial Construction no. 12", artist: "Aleksandr Rodchenko", year: "1977" },
+    { src: c1, title: "Still Life with a Bottle of Rum", artist: "Pablo Picasso", year: "1911" },
+    { src: c2, title: "Les Demoiselles d'Avignon", artist: "Pablo Picasso", year: "1907" },
+    { src: c3, title: "Portrait de Messieurs Kaawashima. et Foujita", artist: "Diego Rivera", year: "1919-20" },
+    { src: c4, title: "Mandolin and Guitar", artist: "Pablo Picasso", year: "1924" },
+    { src: c5, title: "The Portuguese)", artist: "Georges Barque", year: "1911" },
+    { src: c6, title: "Still Life with Tenora", artist: "Georges Barque", year: "1913" },
   ];
 
   const openLightbox = (art) => {
@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Cubism</h1>
           <p>
-            Constructivism emerged in Russia during the aftermath of the 1917 October Revolution. Seeking an artistic language suited to a new social order, Constructivist artists (led by Aleksandr Rodchenko) rejected emotion, subjectivity, and the traditions of easel painting. Instead, they embraced the role of the artist as an engineer, creating work with clear social, functional, and utilitarian purposes for a modern, collective society.
+            Pioneered by Pablo Picasso and Georges Braque in the early 20th century, Cubism broke apart traditional perspective by fragmenting objects into geometric forms and multiple viewpoints. This radical new visual language rejected naturalistic representation, instead reconstructing subjects through fractured planes and simultaneous perspectives to reveal a deeper analytical understanding of form. The movement became a defining turning point in modern art, influencing architecture, design, and many later abstract movements.
           </p>
         </div>
       </section>
