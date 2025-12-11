@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Manrope:wght@200..800&family=Pinyon+Script&family=Stack+Sans+Notch:wght@200..700&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:wght@100..900&display=swap');
+
 
 #root {
   font-family: 'Vend Sans', sans-serif;
@@ -6,11 +8,19 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 body {
   background-color: #F9F8F5;
+}
+
+.home-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 /* Animated font for home header */
@@ -19,6 +29,7 @@ body {
   font-size: 80px;
   font-weight: 400;
   color: #1B1A18;
+  align-items: center;
 }
 
 .change-font {
@@ -48,25 +59,25 @@ body {
   }
 }
 
-.home-subheading {
-  font-size: 20px;
+.home-subheading h3 {
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .explore-button {
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
-  gap: 0.6em;
+  gap: 0.3em;
   font-family: 'Vend Sans', sans-serif;
   color: #BE2C0F;
   border: 1px solid transparent;
-  border-radius: 4px;
-  padding: 0.4em 2em;
+  border-radius: 2px;
+  padding: 0.5em 2em;
   font-size: 1em;
   font-weight: bold;
   cursor: pointer;
   transition-duration: 500ms;
-  
+  margin-top: 8rem;
 }
 button:hover {
     background-color: #BE2C0F;
@@ -81,11 +92,11 @@ button:hover {
   width: 8px;
   height: 8px;
   border-top: 2px solid;
-  transform: scale(0.9);
   border-right: 2px solid;
   margin-top: -1.5px;
-  margin-left: 0.35rem;
+  margin-left: 1rem;
   vertical-align: text-top;
+   transition: transform 0.25s ease;
 }
 .gg-arrow-top-right::after {
   content: "";
@@ -105,5 +116,4 @@ button:hover {
   margin-left: 0.35rem;
   vertical-align: text-top;
   position: relative;
-  top: 8px;
 }
