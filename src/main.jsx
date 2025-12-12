@@ -15,9 +15,9 @@ import Artwork6 from "./pages/Artwork6.jsx";
 import Artwork7 from "./pages/Artwork7.jsx";
 import Artwork8 from "./pages/Artwork8.jsx";
 import Artwork9 from "./pages/Artwork9.jsx";
-// import Artwork10 from "./pages/Artwork10.jsx";
-// import Artwork11 from "./pages/Artwork11.jsx";
-// import Artwork12 from "./pages/Artwork12.jsx";
+import Artwork10 from "./pages/Artwork10.jsx";
+import Artwork11 from "./pages/Artwork11.jsx";
+import Artwork12 from "./pages/Artwork12.jsx";
 
 import "./index.css";
 
@@ -41,9 +41,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/artwork7" element={<Artwork7 />} />
         <Route path="/artwork8" element={<Artwork8 />} />
         <Route path="/artwork9" element={<Artwork9 />} />
-        {/* <Route path="/artwork10" element={<Artwork10 />} /> */}
-        {/* <Route path="/artwork11" element={<Artwork11 />} />
-        <Route path="/artwork12" element={<Artwork12 />} /> */} 
+        <Route path="/artwork10" element={<Artwork10 />} /> 
+        <Route path="/artwork11" element={<Artwork11 />} />
+        <Route path="/artwork12" element={<Artwork12 />} /> 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
