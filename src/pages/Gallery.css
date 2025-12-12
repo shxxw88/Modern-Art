@@ -54,3 +54,98 @@
 .gallery-item:nth-child(10) { --rand: 0.2; }
 .gallery-item:nth-child(11) { --rand: 0.6; }
 .gallery-item:nth-child(12) { --rand: 0.4; }
+
+.gallery-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ? wrapper positions */
+.help-wrapper {
+  position: fixed;
+  z-index: 30;
+}
+
+.help-wrapper.top-right {
+  position: fixed;
+  top: 4rem;
+  right: 4rem;
+}
+
+.help-wrapper.left-middle {
+  position: fixed;
+  top: 36%;
+  left: 4.5rem;
+  transform: translateY(-50%);
+}
+
+/* ? button */
+.gallery-help {
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #BE2C0F;
+  line-height: 1;
+    transition-duration: 500ms;
+}
+
+.gallery-help:hover {
+  color: #F9F8F5;
+  background-color:#BE2C0F;
+
+}
+
+
+/* Popup modal */
+.help-modal {
+  position: absolute;
+  top: 2.2rem;
+  right: 0;
+  width: 300px;
+
+  background: #BE2C0F;
+  color: #F9F8F5;
+  padding: 2rem 1.2rem 2rem;
+
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+}
+
+/* Adjust modal for left-middle */
+.help-wrapper.left-middle .help-modal {
+  top: 50%;
+  left: 2.1rem;
+  transform: translateY(-50%);
+}
+
+.help-modal h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.help-modal p {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.help-wrapper.bottom-right {
+  position: fixed;
+  bottom: 10rem;
+  right: 6rem;
+}
+
+/* Position modal above the ? for bottom-right */
+.help-wrapper.bottom-right .help-modal {
+  position: absolute;
+  right: 2rem;
+  transform: translateY(-98%);
+}

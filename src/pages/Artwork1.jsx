@@ -48,9 +48,12 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Abstract Expressionism</h1>
           <p>
-            Emerging in post–war America, Abstract Expressionism emphasized gesture,
-            spontaneity, and emotional intensity. The movement redefined modern art
-            and shifted the center of the art world to New York.
+            Emerging in post–war America, Abstract Expressionism emphasized{" "}
+            <span className="highlight">gesture, spontaneity, and emotional intensity</span>.
+            Artists prioritized the <span className="highlight">physical act of painting </span>as a form of expression, using
+            scale, movement, and abstraction to convey inner experience. In doing so, the
+            movement redefined modern art and shifted the center of the art world to New York.
+
           </p>
         </div>
       </section>

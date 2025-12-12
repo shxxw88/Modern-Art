@@ -48,7 +48,12 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Post-Impressionism</h1>
           <p>
-Post-Impressionism developed in the late 19th century as artists expanded beyond Impressionism’s naturalism in favour of expressive colour, simplified forms, and experimental techniques. Seeking greater emotional depth, structure, and symbolic meaning, they emphasized form, colour, and personal expression.    
+            Post-Impressionism emerged in the late 19th century as artists moved beyond
+            Impressionism’s naturalism in favour of{" "}
+            <span className="highlight">expressive colour</span> and experimental approaches.
+            Seeking greater{" "}
+            <span className="highlight">emotional depth</span> and meaning, artists used
+            simplified forms to explore personal expression.
          </p>    
         </div>
       </section>

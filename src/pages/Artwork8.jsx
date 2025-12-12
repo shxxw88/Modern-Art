@@ -48,7 +48,8 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Futurism</h1>
           <p>
-Futurism emerged in Italy in the early 20th century, celebrating speed, technology, and the dynamism of modern life. Rejecting traditional artistic values, Futurist painters sought to capture movement, energy, and the sensations of an industrializing world.            </p>    
+          Futurism emerged in Italy in the early 20th century, celebrating  <span className="highlight">speed, technology and the dynamism of modern life. </span> Rejecting traditional artistic values, Futurist painters sought to capture movement, energy, and the sensations of an industrializing world.            
+          </p>    
         </div>
       </section>
 

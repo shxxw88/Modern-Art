@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Suprematism</h1>
           <p>
-            Suprematism focused on pure abstraction, using basic geometric forms such as squares, circles, and lines to express feeling rather than represent the physical world. Founded by Kazimir Malevich, the movement rejected realism in favour of spiritual expression through form and colour alone.
+            Suprematism focused on <span className="highlight">pure abstraction, </span> using basic geometric forms such as <span className="highlight">squares, circles and lines </span> to express feeling rather than represent the physical world. Founded by Kazimir Malevich, the movement rejected realism in favour of spiritual expression through form and colour alone.
       </p>    
         </div>
       </section>

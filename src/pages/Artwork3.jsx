@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Cubism</h1>
           <p>
-            Pioneered by Pablo Picasso and Georges Braque in the early 20th century, Cubism broke apart traditional perspective by fragmenting objects into geometric forms and multiple viewpoints. This radical new visual language rejected naturalistic representation, instead reconstructing subjects through fractured planes and simultaneous perspectives to reveal a deeper analytical understanding of form. The movement became a defining turning point in modern art, influencing architecture, design, and many later abstract movements.
+            Cubism broke traditional perspective by turning objects into <span className="highlight">geometric forms with multiple viewpoints. </span> This new approach rejected naturalistic representation, instead reconstructing subjects through fractured planes to reveal a deeper analytical understanding of form. Cubism became a defining turning point in modern art, influencing architecture, design, and many later abstract movements.
           </p>
         </div>
       </section>

@@ -48,7 +48,8 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Dada</h1>
           <p>
-Dadaism emerged during World War I as a radical rejection of the rational thought and cultural values that many believed had led to the conflict. Beginning in Zurich around 1916, Dada artists embraced absurdity, chance, and provocation to dismantle traditional aesthetics and question the very definition of art. Through readymades, collage, and anarchic performance, figures such as Hugo Ball, Tristan Tzara, and Marcel Duchamp exposed the instability of cultural norms and challenged the foundations of modern artistic practice.          </p>
+        Dadaism emerged during World War I as a radical rejection of the rational thought and cultural values that many believed had led to the conflict. Beginning in Zurich around 1916, Dada artists embraced <span className="highlight">absurdity, change and provocation </span> to dismantle traditional aesthetics and question the very definition of art. Through <span className="highlight">readymades, collage and anarchic performance, </span> artists exposed the instability of cultural norms and challenged the foundations of modern artistic practice.          
+        </p>
         </div>
       </section>
 

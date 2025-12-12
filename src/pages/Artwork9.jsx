@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Impressionism</h1>
           <p>
-Impressionism emerged in France in the 1870s as artists sought to capture the fleeting effects of light, atmosphere, and everyday life. Working en plein air, they used loose brushwork and luminous colour to depict the immediacy of visual experience.         </p>    
+Impressionism emerged in France in the 1870s as artists sought to capture the <span className="highlight">fleeting effects of light, </span> atmosphere, and everyday life. Through <span className="highlight">loose brushwork </span>and luminous colour, they focused on how a scene felt rather than how it was precisely.        </p>    
         </div>
       </section>
 

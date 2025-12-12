@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Surrealism</h1>
           <p>
-Surrealism emerged in the 1920s as artists sought to unlock the unconscious mind, drawing on dreams, automatism, and unexpected juxtapositions. Influenced by psychoanalysis, the movement rejected rational control in favour of imagination, revealing hidden psychological and emotional truths.         </p>    
+Surrealism emerged in the 1920s as artists sought to unlock the unconscious mind, drawing on  <span className="highlight">dreams, </span>automatism, and unexpected juxtapositions. Influenced by  <span className="highlight">psychoanalysis, </span>the movement rejected rational control in favour of <span className="highlight">imagination, </span>revealing hidden psychological and emotional truths.         </p>    
         </div>
       </section>
 

@@ -48,7 +48,9 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Expressionism</h1>
           <p>
-Expressionism emerged in early 20th-century Europe as artists sought to convey inner emotion rather than external reality. Through bold colours, distorted forms, and intense psychological imagery, they rejected naturalistic representation in favour of subjective expression.    </p>    </div>
+          Expressionism emerged in early 20th-century Europe as artists sought to convey <span className="highlight">inner emotion </span> rather than external reality. Through bold colours, distorted forms, and <span className="highlight">intense psychological imagery, </span> they rejected naturalistic representation in favour of subjective expression.    
+          </p>    
+          </div>
       </section>
 
       {/* RIGHT COLUMN */}

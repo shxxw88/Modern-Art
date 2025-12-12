@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Constructivism</h1>
           <p>
-            Constructivism emerged in Russia during the aftermath of the 1917 October Revolution. Seeking an artistic language suited to a new social order, Constructivist artists (led by Aleksandr Rodchenko) rejected emotion, subjectivity, and the traditions of easel painting. Instead, they embraced the role of the artist as an engineer, creating work with clear social, functional, and utilitarian purposes for a modern, collective society.
+            Constructivism emerged in Russia during the aftermath of the 1917 October Revolution. Seeking an artistic language suited to a new social order, Constructivist artists <span className="highlight">rejected emotion, subjectivity, and the traditions of easel painting. </span>Instead, they embraced the role of the artist as an <span className="highlight">engineer, </span> creating work with clear social, functional, and utilitarian purposes for a modern, collective society.
           </p>
         </div>
       </section>

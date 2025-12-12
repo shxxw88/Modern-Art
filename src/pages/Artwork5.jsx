@@ -48,7 +48,9 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>De Stijl</h1>
           <p>
-Founded in the Netherlands in 1917, De Stijl sought a universal visual language grounded in harmony, order, and abstraction. Led by artists like Piet Mondrian and Theo van Doesburg, the movement reduced art to primary colours, straight lines, and geometric forms to express an ideal balance underlying modern life. Rejecting naturalistic representation, De Stijl into architecture, design, and typography, becoming a key foundation of modernist aesthetics.      </p>    </div>
+          Founded in the Netherlands in 1917, De Stijl sought a universal visual language grounded in <span className="highlight">harmony, order and abstraction. </span> Led by artists like Piet Mondrian and Theo van Doesburg, the movement reduced art to <span className="highlight">primary colours, straight lines and geometric forms </span> to express an ideal balance underlying modern life. Rejecting naturalistic representation, De Stijl into architecture, design, and typography, becoming a key foundation of modernist aesthetics.     
+           </p>    
+           </div>
       </section>
 
       {/* RIGHT COLUMN */}

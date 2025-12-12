@@ -20,7 +20,7 @@
 /* Bottom-align the text box */
 .artwork-info-bottom {
   position: absolute;
-  bottom: 3rem;         /* distance from bottom */
+  bottom: 4.5rem;         /* distance from bottom */
   left: 3vw;
   right: 3vw;
 }
@@ -234,3 +234,8 @@
     color: #F9F8F5;
 }
 
+
+.highlight {
+  color: #BE2C0F;
+  font-weight: bold;
+}

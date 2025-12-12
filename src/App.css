@@ -61,7 +61,7 @@ body {
 
 .home-subheading h3 {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .explore-button {
@@ -71,10 +71,9 @@ body {
   font-family: 'Vend Sans', sans-serif;
   color: #BE2C0F;
   border: 1px solid transparent;
-  border-radius: 2px;
   padding: 0.5em 2em;
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 1.3em;
+  font-weight: 600;
   cursor: pointer;
   transition-duration: 500ms;
   margin-top: 8rem;

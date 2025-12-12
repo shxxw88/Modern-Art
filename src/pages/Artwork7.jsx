@@ -48,7 +48,7 @@ export default function Artwork1() {
         <div className="artwork-info-bottom">
           <h1>Fauvism</h1>
           <p>
-            Fauvism emerged in France in the early 20th century, defined by its use of vivid, non-naturalistic colour and expressive, energetic brushwork. Led by artists such as Henri Matisse and André Derain, the Fauves rejected traditional naturalism in favour of heightened emotional impact, simplifying forms and intensifying colour to convey feeling over realism.
+            Fauvism emerged in France in the early 20th century, defined by its use of <span className="highlight">vivid, non-naturalistic colour and expressive, energetic brushwork. </span> Led by artists such as Henri Matisse and André Derain, the Fauves rejected traditional naturalism in favour of heightened emotional impact, simplifying forms and intensifying colour to convey feeling over realism.
             </p>    
         </div>
       </section>
