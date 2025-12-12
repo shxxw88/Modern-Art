@@ -116,3 +116,68 @@ button:hover {
   vertical-align: text-top;
   position: relative;
 }
+
+.explore-button {
+  position: relative;
+  z-index: 10000;
+}
+
+
+/* .home-container {
+  transition: background-color 0.8s ease;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.home-container--red {
+  background-color: #BE2C0F;
+}
+
+.home-container--red h1,
+.home-container--red h3,
+.home-container--red p,
+.home-container--red span {
+  color: #F9F8F5;
+}
+
+#root:has(.home-container) {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Also remove default page margins */
+/* html, body {
+  margin: 0;
+  padding: 0;
+}
+/* Text fades out AFTER background turns red */
+/* .home-container h1,
+.home-container h3,
+.home-container p {
+  transition: color 0.8s ease, opacity 2.5s ease-in-out;
+} */
+
+/* .home-container--red h1,
+.home-container--red h3,
+.home-container--red p {
+  color: #F9F8F5;
+  opacity: 1; /* 👈 red visually covers text */
+/* }
+.home-container--red h1 {
+  transition-delay: 0s, 1.0s; /* color immediately, opacity after 1s */
+
+
+/* .home-container--red h3 {
+  transition-delay: 0s, 1.1s;
+}
+
+.home-container--red p {
+  transition-delay: 0s, 1.2s;
+}
+
+.home-container--red .explore-button {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+} */
